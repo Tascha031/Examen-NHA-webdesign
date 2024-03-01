@@ -1,0 +1,148 @@
+/*body*/ 
+body {
+    width: 100%;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white
+}
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: rgb(223, 160, 105);
+    }
+}
+
+/*col*/
+[class*="col-"] {
+       width: 100%;   
+       padding: 1px;
+}
+@media only screen and (min-width: 600px) {
+    [class*="col-"] {
+      float: left;
+      padding: 0px;
+    }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+.col-3 {
+    background-color: rgb(223, 160, 105); 
+}
+.col-9 {
+    background-color: white;
+}
+
+/*tekst*/
+h1 {
+    font-size: xx-large;
+}
+h1, h2, p {
+    margin: 20px; 
+}
+h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+p {
+    font-size: 19px;
+}
+.chocolate {
+    color: chocolate;
+}
+.border {
+    border-top: 1px solid grey;
+}
+
+/*header*/
+.titel {
+    text-align: center;
+    background-color: darkorange;
+    color: white;
+    padding: 40px;
+}
+nav {
+    text-align: left;
+    font-size: 17px;
+    background-color: rgb(190, 97, 31);
+    padding: 15px;
+    border-bottom: 5px solid yellow;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 21px;
+    display: block;
+}
+@media only screen and (min-width: 600px) {
+    a {
+      display: inline;
+    }
+}
+
+/*media*/
+img {
+    display: block;
+}
+#saxofoon, #kind {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#trompet, #saxofoon2 {
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#hanna {
+    float: right;
+    margin: 15px;
+    max-width: 50%;
+}
+#jesse {
+    float: left;
+    margin: 15px;
+    max-width: 50%;
+}
+iframe {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
+
+/*formulier*/
+table, input, textarea, select {
+    margin: 20px;
+    font-size: 19px;
+    width: 90%
+}
+#verzendknop {
+    background-color: chocolate;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: chocolate;
+}
